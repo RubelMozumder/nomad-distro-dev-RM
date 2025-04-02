@@ -67,6 +67,11 @@ if not os.path.exists("nomad.yaml"):
 """
 interpreter = "python"
 
+[tool.poe.tasks.start-app]
+cmd = "nomad admin run app"
+
+[tool.poe.tasks.start-worker]
+cmd = "nomad admin run worker"
 [tool.poe.tasks.gui-env]
 cmd = "python -W ignore -m nomad.cli dev gui-env"
 capture_stdout = "packages/nomad-FAIR/gui/.env.development"
