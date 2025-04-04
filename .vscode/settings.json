@@ -2,5 +2,9 @@
     "python.analysis.extraPaths": [
         "./packages/nomad-FAIR"
     ],
-    "python.autoDetect": false
+    // "python.autoDetect": false,
+    // "github.copilot.enable": {
+    //       "jupyter": true
+    //     },
+    // "jupyter.enableKernelCompletions": true,
 }
