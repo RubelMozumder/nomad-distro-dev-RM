@@ -22,5 +22,5 @@ git push
 
 ## Branch list with branch of submosules
 1.  SPMapp (nomad->jumpToReference, pynxtools->master, pynxtools-spm-->SPMapp)
-2. 
+2.  update_spm_example (nomad->develop, pynxtools->HookDefinition, pynxtools-spm->upload_example, definition->SPM_app_sample_component_set)
 
