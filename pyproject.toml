@@ -15,6 +15,8 @@ dependencies = [
   "pynxtools-spm",
   "pynxtools-apm",
   "pynxtools-xps",
+  "pynxtools-raman",
+  "pynxtools-igor",
   "nomad-schema-plugin-run>=1.0.1",
   "nomad-normalizer-plugin-dos>=1.0",
   "nomad-normalizer-plugin-soap>=1.0",
@@ -24,6 +26,10 @@ dependencies = [
   "nomad-parser-plugins-atomistic>=1.0.6",
   "nomad-parser-plugins-database>=1.0",
   "nomad-external-eln-integrations",
+  "pynxtools-ellips",
+  "pynxtools-mpes",
+  "pynxtools-xrd",
+  "pynxtools-camels",
 ]
 
 [tool.uv.workspace]
@@ -39,6 +45,12 @@ pynxtools = { workspace = true }
 pynxtools-apm = { workspace = true }
 pynxtools-xps = { workspace = true }
 pynxtools-spm = { workspace = true }
+pynxtools-raman = { workspace = true }
+pynxtools-igor = { workspace = true }
+pynxtools-ellips = { workspace = true }
+pynxtools-mpes = { workspace = true }
+pynxtools-xrd = { workspace = true }
+pynxtools-camels = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
