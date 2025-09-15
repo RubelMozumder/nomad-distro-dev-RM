@@ -51,6 +51,7 @@ pynxtools-ellips = { workspace = true }
 pynxtools-mpes = { workspace = true }
 pynxtools-xrd = { workspace = true }
 pynxtools-camels = { workspace = true }
+pynxtools-em = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
