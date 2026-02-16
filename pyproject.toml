@@ -32,6 +32,7 @@ dependencies = [
   "pynxtools-camels",
   "test-north",
   "nomad-tajine-plugin",
+  "nomad-north-jupyter",
   "cookiecutter",
   "cruft",
   "numpy>=2.0", # can be removed if updated in nomad-lab
@@ -70,6 +71,7 @@ pynxtools-camels = { workspace = true }
 pynxtools-em = { workspace = true }
 test-north = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
+nomad-north-jupyter = { workspace = true }
 
 [tool.uv]
 extra-index-url = [

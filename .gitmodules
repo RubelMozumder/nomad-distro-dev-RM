@@ -40,3 +40,6 @@
 [submodule "packages/nomad-tajine-plugin"]
 	path = packages/nomad-tajine-plugin
 	url = git@github.com:FAIRmat-NFDI/nomad-tajine-plugin.git
+[submodule "packages/nomad-north-jupyter"]
+	path = packages/nomad-north-jupyter
+	url = git@github.com:FAIRmat-NFDI/nomad-north-jupyter.git
