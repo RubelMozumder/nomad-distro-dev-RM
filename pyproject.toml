@@ -36,7 +36,8 @@ dependencies = [
   "cookiecutter",
   "cruft",
   "numpy>=2.0", # can be removed if updated in nomad-lab
- "elasticsearch>=7.17,<8" # can be removed if updated in nomad-lab
+ "elasticsearch>=7.17,<8", # can be removed if updated in nomad-lab
+ "spmpy",
 
 ]
 [project.optional-dependencies]
@@ -72,6 +73,7 @@ pynxtools-em = { workspace = true }
 test-north = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
 nomad-north-jupyter = { workspace = true }
+spmpy = {workspace = true}
 
 [tool.uv]
 extra-index-url = [

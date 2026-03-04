@@ -43,3 +43,6 @@
 [submodule "packages/nomad-north-jupyter"]
 	path = packages/nomad-north-jupyter
 	url = git@github.com:FAIRmat-NFDI/nomad-north-jupyter.git
+[submodule "packages/spmpy"]
+	path = packages/spmpy
+	url = git@github.com:kogens/spmpy.git
