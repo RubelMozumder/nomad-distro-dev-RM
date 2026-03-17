@@ -38,6 +38,7 @@ dependencies = [
   "numpy>=2.0", # can be removed if updated in nomad-lab
  "elasticsearch>=7.17,<8", # can be removed if updated in nomad-lab
  "spmpy",
+ "pyspm",
 
 ]
 [project.optional-dependencies]
@@ -74,6 +75,7 @@ test-north = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
 nomad-north-jupyter = { workspace = true }
 spmpy = {workspace = true}
+pyspm = {workspace = true}
 
 [tool.uv]
 extra-index-url = [

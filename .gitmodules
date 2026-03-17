@@ -46,3 +46,6 @@
 [submodule "packages/spmpy"]
 	path = packages/spmpy
 	url = git@github.com:kogens/spmpy.git
+[submodule "packages/pyspm"]
+	path = packages/pyspm
+	url = git@github.com:scholi/pySPM.git
