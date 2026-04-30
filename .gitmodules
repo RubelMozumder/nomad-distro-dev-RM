@@ -49,3 +49,9 @@
 [submodule "packages/pyspm"]
 	path = packages/pyspm
 	url = git@github.com:scholi/pySPM.git
+[submodule "nomad-north-nionswift"]
+	path = nomad-north-nionswift
+	url = https://github.com/FAIRmat-NFDI/nomad-north-nionswift
+[submodule "packages/nomad-north-nionswift"]
+	path = packages/nomad-north-nionswift
+	url = https://github.com/FAIRmat-NFDI/nomad-north-nionswift

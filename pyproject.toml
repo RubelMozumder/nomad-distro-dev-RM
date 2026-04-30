@@ -33,6 +33,7 @@ dependencies = [
   "test-north",
   "nomad-tajine-plugin",
   "nomad-north-jupyter",
+  "nomad-north-nionswift",
   "cookiecutter",
   "cruft",
   "numpy>=2.0", # can be removed if updated in nomad-lab
@@ -74,6 +75,7 @@ pynxtools-em = { workspace = true }
 test-north = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
 nomad-north-jupyter = { workspace = true }
+nomad-north-nionswift = { workspace = true }
 spmpy = {workspace = true}
 pyspm = {workspace = true}
 
