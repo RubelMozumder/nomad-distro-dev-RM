@@ -55,3 +55,21 @@
 [submodule "packages/nomad-north-nionswift"]
 	path = packages/nomad-north-nionswift
 	url = https://github.com/FAIRmat-NFDI/nomad-north-nionswift
+[submodule "packages/nomad-north-pyiron"]
+	path = packages/nomad-north-pyiron
+	url = git@github.com:FAIRmat-NFDI/nomad-north-pyiron.git
+[submodule "packages/nomad-north-fiji"]
+	path = packages/nomad-north-fiji
+	url = git@github.com:FAIRmat-NFDI/nomad-north-fiji.git
+[submodule "packages/nomad-north-apmtools"]
+	path = packages/nomad-north-apmtools
+	url = git@github.com:FAIRmat-NFDI/nomad-north-apmtools.git
+[submodule "packages/nomad-north-vesta"]
+	path = packages/nomad-north-vesta
+	url = git@github.com:FAIRmat-NFDI/nomad-north-vesta.git
+[submodule "packages/nomad-north-emtools"]
+	path = packages/nomad-north-emtools
+	url = git@github.com:FAIRmat-NFDI/nomad-north-emtools.git
+[submodule "packages/nomad-north-voila"]
+	path = packages/nomad-north-voila
+	url = git@github.com:FAIRmat-NFDI/nomad-north-voila.git

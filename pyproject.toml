@@ -37,10 +37,15 @@ dependencies = [
   "cookiecutter",
   "cruft",
   "numpy>=2.0", # can be removed if updated in nomad-lab
- "elasticsearch>=7.17,<8", # can be removed if updated in nomad-lab
- "spmpy",
- "pyspm",
-
+  "elasticsearch>=7.17,<8", # can be removed if updated in nomad-lab
+  "spmpy",
+  "pyspm",
+  "nomad-north-apmtools",
+  "nomad-north-emtools",
+  "nomad-north-fiji",
+  "nomad-north-pyiron",
+  "nomad-north-vesta",
+  "nomad-north-voila",
 ]
 [project.optional-dependencies]
   dev = [
@@ -74,10 +79,16 @@ pynxtools-camels = { workspace = true }
 pynxtools-em = { workspace = true }
 test-north = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
-nomad-north-jupyter = { workspace = true }
 nomad-north-nionswift = { workspace = true }
 spmpy = {workspace = true}
 pyspm = {workspace = true}
+nomad-north-apmtools = { workspace = true }
+nomad-north-emtools = { workspace = true }
+nomad-north-jupyter = { workspace = true }
+nomad-north-fiji = { workspace = true }
+nomad-north-pyiron = { workspace = true }
+nomad-north-vesta = { workspace = true }
+nomad-north-voila = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
