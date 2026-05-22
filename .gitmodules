@@ -76,3 +76,6 @@
 [submodule "packages/nomad-docs"]
 	path = packages/nomad-docs
 	url = git@github.com:FAIRmat-NFDI/nomad-docs.git
+[submodule "packages/nomad-measurements"]
+	path = packages/nomad-measurements
+	url = https://github.com/FAIRmat-NFDI/nomad-measurements.git
