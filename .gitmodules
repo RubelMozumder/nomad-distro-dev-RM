@@ -73,3 +73,6 @@
 [submodule "packages/nomad-north-voila"]
 	path = packages/nomad-north-voila
 	url = git@github.com:FAIRmat-NFDI/nomad-north-voila.git
+[submodule "packages/nomad-docs"]
+	path = packages/nomad-docs
+	url = git@github.com:FAIRmat-NFDI/nomad-docs.git
