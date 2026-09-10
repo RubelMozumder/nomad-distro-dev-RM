@@ -10,8 +10,10 @@ dependencies = [
   "cruft",
   "elasticsearch>=7.17,<8", # can be removed if updated in nomad-lab
   "nomad-aitoolkit",
+  "nomad-docs",
   "nomad-external-eln-integrations",
   "nomad-lab[infrastructure,parsing]>=1.3.10",
+  "nomad-measurements",
   "nomad-normalizer-plugin-dos>=1.0",
   "nomad-normalizer-plugin-soap>=1.0",
   "nomad-normalizer-plugin-spectra>=1.0",
@@ -89,6 +91,8 @@ pynxtools-xrd = { workspace = true }
 pyspm = {workspace = true}
 spmpy = {workspace = true}
 test-north = { workspace = true }
+nomad-docs = { workspace = true }
+nomad-measurements = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
@@ -102,6 +106,9 @@ dev = ["nomad-lab[infrastructure, dev]>=1.4.1", "poethepoet>=0.29.0"]
 [tool.poe.tasks]
 submodule = "git submodule update --init --recursive"
 docker = "docker compose up -d"
+setup = ["gui-env", "gui-setup", "docker", "config"]
+lint = ["ruff-lint", "ruff-format"]
+
 [tool.poe.tasks.start]
 cmd = "nomad admin run appworker --dev"
 env = { NOMAD_SERVICES_MODE = "development" }
