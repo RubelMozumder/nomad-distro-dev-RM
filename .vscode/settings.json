@@ -1,6 +1,24 @@
 {
-    "python.analysis.extraPaths": [
-        "./packages/nomad-FAIR"
-    ],
-    "python.autoDetect": false
+  "files.exclude": {
+    "\"**/*.pyc\": {\"when\": \"$(basename).py\"}": true,
+    "**/__pycache__": true,
+    "**/node_modules": true
+  },
+  "eslint.workingDirectories": [
+    {
+      "directory": "packages/nomad-FAIR/gui"
+    }
+  ],
+  "python.testing.pytestPath": "pytest",
+  "python.testing.pytestArgs": ["packages/**/tests"],
+  "python.testing.unittestEnabled": false,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestionsDelay": 1,
+  "editor.suggest.snippetsPreventQuickSuggestions": false
+
+
 }
