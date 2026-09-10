@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
         "./packages/nomad-FAIR"
-    ]
+    ],
+    "python.autoDetect": false
 }
