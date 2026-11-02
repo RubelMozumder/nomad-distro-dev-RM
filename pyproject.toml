@@ -18,6 +18,10 @@ dependencies = [
   "pynxtools-xps",
   "pynxtools-raman",
   "pynxtools-igor",
+  "pynxtools-ellips",
+  "pynxtools-xrd",
+  "pynxtools-camels",
+  "pynxtools-em",
   "nomad-schema-plugin-run>=1.0.1",
   "cookiecutter",
   "cruft",
@@ -35,6 +39,15 @@ dependencies = [
   "nomad-external-eln-integrations",
   "numpy>=2.0", # can be removed if updated in nomad-lab
   "nomad-eosc-galaxy-actions",
+  "nomad-tajine-plugin",
+  "nomad-north-apmtools",
+  "nomad-north-emtools",
+  "nomad-north-fiji",
+  "nomad-north-jupyter",
+  "nomad-north-nionswift",
+  "nomad-north-pyiron",
+  "nomad-north-vesta",
+  "nomad-north-voila",
 ]
 [project.optional-dependencies]
   dev = [
@@ -71,6 +84,15 @@ pynxtools-em = { workspace = true }
 nomad-docs = { workspace = true }
 nomad-measurements = { workspace = true }
 nomad-eosc-galaxy-actions = { workspace = true }
+nomad-tajine-plugin = { workspace = true }
+nomad-north-apmtools = { workspace = true }
+nomad-north-emtools = { workspace = true }
+nomad-north-fiji = { workspace = true }
+nomad-north-jupyter = { workspace = true }
+nomad-north-nionswift = { workspace = true }
+nomad-north-pyiron = { workspace = true }
+nomad-north-vesta = { workspace = true }
+nomad-north-voila = { workspace = true }
 # nomad-gui = { workspace = true }
 
 [tool.uv]
