@@ -40,3 +40,6 @@
 [submodule "packages/nomad-eosc-galaxy-actions"]
 	path = packages/nomad-eosc-galaxy-actions
 	url = git@github.com:FAIRmat-NFDI/nomad-eosc-galaxy-actions.git
+[submodule "packages/nomad-docs"]
+	path = packages/nomad-docs
+	url = git@github.com:FAIRmat-NFDI/nomad-docs.git
