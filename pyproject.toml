@@ -62,7 +62,6 @@ dependencies = [
 [tool.uv.workspace]
 members = ["packages/*"]
 # pynxtools-mpes is temporarily excluded: its numpy pin conflicts with the `mpes` dependency of north.
-# nomad-north-apmtools is excluded from the workspace.
 exclude = ["packages/pynxtools-mpes", "packages/nomad-north-apmtools"]
 
 [tool.uv.sources]
