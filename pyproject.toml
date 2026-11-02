@@ -40,7 +40,7 @@ dependencies = [
   "numpy>=2.0", # can be removed if updated in nomad-lab
   "nomad-eosc-galaxy-actions",
   "nomad-tajine-plugin",
-  "nomad-north-apmtools",
+  # "nomad-north-apmtools",
   "nomad-north-emtools",
   "nomad-north-fiji",
   "nomad-north-jupyter",
@@ -62,7 +62,8 @@ dependencies = [
 [tool.uv.workspace]
 members = ["packages/*"]
 # pynxtools-mpes is temporarily excluded: its numpy pin conflicts with the `mpes` dependency of north.
-exclude = ["packages/pynxtools-mpes"]
+# nomad-north-apmtools is excluded from the workspace.
+exclude = ["packages/pynxtools-mpes", "packages/nomad-north-apmtools"]
 
 [tool.uv.sources]
 nomad-aitoolkit = { git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git", rev = "b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" }
@@ -85,7 +86,7 @@ nomad-docs = { workspace = true }
 nomad-measurements = { workspace = true }
 nomad-eosc-galaxy-actions = { workspace = true }
 nomad-tajine-plugin = { workspace = true }
-nomad-north-apmtools = { workspace = true }
+# nomad-north-apmtools = { workspace = true }
 nomad-north-emtools = { workspace = true }
 nomad-north-fiji = { workspace = true }
 nomad-north-jupyter = { workspace = true }
